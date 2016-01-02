@@ -1,0 +1,27 @@
+{
+    "name": "@com.github.cjnygard/md2pdf",
+    "version": "0.0.1",
+    "description": "produce PDF file from Markdown source",
+    "license": "UNLICENSED",
+    "private": "true",
+    "author": {
+        "name": "Carl Nygard",
+        "email": "cjnygard@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cjnygard/md2pdf.git"
+    },
+    "dependencies": {
+        "express": ">=4.13.3",
+        "body-parser": ">=1.14.1",
+        "markdown-pdf": ">=6.0.0",
+        "remarkable-classy": ">=0.0.1"
+    },
+    "engines": {
+        "node": ">=5.1.0"
+    },
+    "config": {
+        "port": "3001"
+    }
+}
